@@ -1,0 +1,37 @@
+{
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  },
+  "browserList": [
+    "last 1 version",
+    "> 1%",
+    "maintained node version",
+    "not dead"
+  ],
+  "devDependencies": {
+    "gulp-clean-css": "^4.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anikulcha/project_pulse.git"
+  },
+  "author": "andrey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anikulcha/project_pulse/issues"
+  },
+  "homepage": "https://github.com/anikulcha/project_pulse#readme"
+}

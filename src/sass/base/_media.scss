@@ -1,0 +1,42 @@
+@media (max-width: 985px){
+    .container{
+        padding: 12px;
+    }
+    .benefits{
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 425px){
+    .promo{
+        padding: 0 10px;
+        &__wrapper{
+            justify-content: center;
+            align-items: center;
+        }
+        &__header{
+            font-size: 29px;
+        }
+        &__subheader{
+            font-size: 15px;
+        }
+        &__icons{
+            width: 100%;
+        }
+    }
+    .header{
+        // align-items: ;
+        &__official{
+            display: none;
+        }
+        &__logo{
+            width: 145px;
+        }
+        &__phone{
+            font-size: 16px;
+        }
+    }
+}
